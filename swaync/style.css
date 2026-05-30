@@ -1,0 +1,117 @@
+* {
+  font-family: "Inter", "Roboto", "Ubuntu", "sans-serif";
+  background-clip: padding-box;
+}
+
+.notification-row {
+  outline: none;
+  margin: 4px 8px;
+  padding: 0;
+}
+
+.notification {
+  background: #1a1b26;
+  padding: 10px 12px;
+  margin: 2px 0px;
+  border-radius: 12px;
+  border: 2px solid #7aa2f7;
+  color: #c0caf5; 
+}
+
+.notification-content {
+  margin-top: 2px;
+  margin-left: 0px;
+}
+
+.summary {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.body {
+  font-size: 14px;
+  color: #a9b1d6;
+  margin-top: 4px;
+  margin-left: 20px;
+}
+
+.close-button {
+  background: #24283b;
+  color: #f7768e;
+  border-radius: 6px;
+  padding: 2px 6px;
+}
+.close-button:hover {
+  background: #f7768e;
+  color: #1a1b26;
+}
+
+.notification-action-buttons {
+  margin-top: 8px;
+}
+
+.notification-action-button {
+  background: #24283b;
+  border: 1px solid #414868;
+  border-radius: 6px;
+  color: #c0caf5;
+  font-size: 11px;
+  padding: 4px 12px;
+  font-weight: bold;
+  margin: 2px 45px;
+}
+
+.notification-action-button:hover {
+  background: #7aa2f7;
+  color: #1a1b26;
+  border-color: #7aa2f7;
+}
+
+.notification-row {
+  outline: none;
+  margin: 4px 8px;
+  padding: 0;
+  background: transparent;
+}
+
+.notification {
+  background: #1a1b26;
+  padding: 10px 12px;
+  margin: 2px 0px;
+  border-radius: 12px;
+  border: 2px solid #7aa2f7;
+  color: #c0caf5;
+}
+
+.notification-group,
+.notification-group-body,
+.notification-group-header {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.notification-group.collapsed .notification-group-body,
+.notification-group.expanded .notification-group-body {
+  background: transparent;
+}
+
+.control-center {
+  background: rgba(26, 27, 38, 0.95);
+  border: 2px solid #24283b;
+  border-radius: 14px;
+  padding: 12px;
+  color: #c0caf5;
+}
+.widget-title > label {
+  font-size: 16px;
+  font-weight: bold;
+}
+.widget-title > button {
+  background: #24283b;
+  color: #7aa2f7;
+  border-radius: 6px;
+  padding: 4px 8px;
+}

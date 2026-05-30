@@ -1,0 +1,13 @@
+* {
+    bg:          #1a1b26;
+    bg-item:     #24283b;
+    bg-selected: #343b58;
+    fg:          #c0caf5;
+    fg-selected: #ffffff;
+    accent:      #7aa2f7;
+    urgent:      #f7768e;
+    
+    background-color: transparent;
+    text-color:       @fg;
+    spacing:          0;
+}

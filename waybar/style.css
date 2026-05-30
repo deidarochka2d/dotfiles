@@ -1,0 +1,61 @@
+* {
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 14px;
+    border: none;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+/* Module style */
+#custom-arch, #custom-cpu, #custom-gpu, #memory, #window, #clock, #workspaces, #tray, #bluetooth, #network, #pulseaudio, #custom-swaync {
+    background-color: #1a1b26;
+    color: #a9b1d6;
+    border: 1px solid #24283b;
+    border-radius: 8px;
+    margin: 5px 4px;
+    padding: 0px 12px;
+}
+
+/* Colors */
+#custom-arch { color: #c0caf5; font-size: 16px; }
+#clock { color: #ffffff; font-weight: bold; }
+#window { color: #9aa5ce; }
+#custom-cpu, #custom-gpu, #memory, #bluetooth, #network, #pulseaudio, #custom-swaync { color: #c0caf5; }
+
+/* Calendar ( tooltip ) */
+tooltip {
+    background: #1a1b26;
+    border: 1px solid #24283b;
+    border-radius: 8px;
+}
+
+/* Workspaces */
+#workspaces button.active {
+    color: #1a1b26;
+    background-color: #c0caf5;
+    border-radius: 6px;
+}
+#workspaces button {
+    color: #a9b1d6;
+    padding: 0px 8px;
+}
+#workspaces button:hover {
+    background-color: #24283b;
+    color: #ffffff;
+}
+
+/* Powermenu / wlogout */
+#custom-powermenu {
+    background-color: #a9b1d6;
+    color: #1a1b26;
+    border-radius: 8px;
+    margin: 5px 4px;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+
+#custom-powermenu:hover {
+    background-color:rgb(149, 77, 77);
+}
